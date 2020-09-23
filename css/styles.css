@@ -1,0 +1,335 @@
+/* Wedding Code */
+body {
+  background-color: #f8efd4;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+h2 {
+  font-family: "Petit";
+}
+
+h3 {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.white-box {
+  background-color: #f8efd4;
+  text-align: center;
+}
+
+.dark-box {
+  background-color: #edc988;
+  text-align: center;
+}
+
+.hr-seperation {
+  padding-bottom: 50px;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 0 5% 20%;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar-nav {
+  align-items: center;
+  width: 100%;
+}
+
+.nav-item {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.dropdown-menu {
+  text-align: center;
+  background-color: rgb(255, 255, 223);
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(255, 255, 223);
+}
+
+#sign-in-button {
+  right: 0px;
+}
+
+/* Main Content */
+#home {
+  height: 80%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 1px;
+  position: static;
+}
+
+.icon {
+  position: relative;
+  left: 70px;
+  top: 100px;
+}
+
+.subheading {
+  font-family: "Poppins";
+  position: relative;
+  top: 190px;
+  right: 100px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.subheading::before {
+  position: absolute;
+  top: 50%;
+  right: 110%;
+  content: "";
+  width: 130px;
+  height: 2px;
+  background-color: black;
+}
+
+.subheading::after {
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  content: "";
+  width: 130px;
+  height: 2px;
+  background-color: black;
+}
+
+.names {
+  text-align: center;
+  position: relative;
+  font-size: 6rem;
+  top: 110px;
+}
+
+.wedding-date {
+  position: relative;
+  top: 120px;
+}
+
+.wedding-date::before {
+  position: absolute;
+  top: 50%;
+  right: 110%;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: black;
+}
+
+.wedding-date::after {
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: black;
+}
+
+.timer-container {
+  font-family: "Poppins";
+  font-size: 2rem;
+  padding-top: 1%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+  width: 400px;
+}
+
+.rsvp-button {
+  font-family: "Poppins";
+  position: relative;
+  top: 200px;
+  height: 50px;
+  width: 200px;
+}
+
+/* RSVP Section */
+.form-control {
+  height: 40px;
+  box-shadow: none;
+  color: #969fa4;
+}
+
+.form-control:focus {
+  border-color: #5cb85c;
+}
+
+.form-control, .btn {
+  border-radius: 3px;
+}
+
+.signup-form {
+  width: 450px;
+  margin: 100px auto 0;
+  padding: 30px 0;
+  font-size: 15px;
+}
+
+.signup-form h2 {
+  color: #636363;
+  margin: 0 0 15px;
+  position: relative;
+  text-align: center;
+}
+
+.signup-form h2:before, .signup-form h2:after {
+  content: "";
+  height: 2px;
+  width: 30%;
+  background: #d4d4d4;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+}
+
+.signup-form h2:before {
+  left: 0;
+}
+
+.signup-form h2:after {
+  right: 0;
+}
+
+.signup-form .hint-text {
+  color: #999;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.signup-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: #f2f3f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+
+.signup-form input[type="checkbox"] {
+  margin-top: 3px;
+}
+
+.signup-form .btn {
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 140px;
+  outline: none !important;
+}
+
+.signup-form .row div:first-child {
+  padding-right: 10px;
+}
+
+.signup-form .row div:last-child {
+  padding-left: 10px;
+}
+
+.signup-form a {
+  text-decoration: underline;
+}
+
+.signup-form a:hover {
+  text-decoration: none;
+}
+
+.signup-form form a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+.signup-form form a:hover {
+  text-decoration: underline;
+}
+
+/* Accomidations Section */
+#accomidations-section {
+  padding: 50px;
+}
+
+.accomidations-carousel {
+  margin: 50px auto;
+  width: 800px;
+}
+
+/* Entertainment Section */
+.entertainment-section-title {
+  color: black;
+}
+
+.entertainment-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.leah-link:hover {
+  text-decoration: none;
+}
+
+.video {
+  margin-top: 50px;
+}
+
+/* Mobile Size */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .names {
+    font-size: 3.2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1130px) {
+  .names {
+    font-size: 3.5rem;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .names {
+    font-size: 5rem;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...
+}
+
+/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
+/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
+/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
+/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
+/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
+/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
