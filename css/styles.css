@@ -1,163 +1,153 @@
-/* Wedding Code */
+/* ----------Main Section---------- */
 body {
-  background-color: #f8efd4;
-  align-items: center;
+  text-align: center;
 }
 
 h1 {
-  font-family: 'Petit Formal Script', cursive;
+  font-size: 5rem;
 }
 
 h2 {
-  font-family: "Petit";
+  font-size: 3rem;
 }
 
-h3 {
-  font-family: 'Petit Formal Script', cursive;
+a {
+  color: black;
 }
 
-.white-box {
-  background-color: #f8efd4;
-  text-align: center;
+a:hover {
+  color: black;
+  text-decoration: none;
 }
 
-.dark-box {
-  background-color: #edc988;
-  text-align: center;
+/* ----------Reusable Section---------- */
+.hr-fifty {
+  background-color: black;
+  border: none;
+  border-color: white;
+  height: 0.5px;
+  width: 60%;
 }
 
-.hr-seperation {
-  padding-bottom: 50px;
-}
-
-/* Title Section */
-#title .container-fluid {
-  padding: 0 5% 20%;
-  text-align: left;
-}
-
-/* Navigation Bar */
-.navbar-nav {
-  align-items: center;
+/* ----------Navigation Section---------- */
+.navbar {
   width: 100%;
 }
 
-.nav-item {
-  padding-left: 50px;
-  padding-top: 50px;
+.navbar-toggler-icon {
+  border-color: none;
+  font-size: 40pt;
+  margin: 10px;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.dropdown {
+  position: static !important;
 }
 
 .dropdown-menu {
+  background-color: #f8f9fa !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: 0px !important;
+  width: 100% !important;
+}
+
+.nav-link,
+.dropdown-item {
+  font-size: 2.5rem;
+  padding: 15px;
   text-align: center;
-  background-color: rgb(255, 255, 223);
-  border: none;
 }
 
 .dropdown-item:hover {
-  background-color: rgb(255, 255, 223);
+  background-color: #ee6f57 !important;
+  color: #145374;
+}
+/* ----------Photo Carousel Section---------- */
+#photo-carousel {
+  height: 70vh;
+  margin-bottom: 10px;
 }
 
-#sign-in-button {
-  right: 0px;
+.carousel {
+  margin-bottom: 100px;
 }
 
-/* Main Content */
+/* ----------Home Section---------- */
 #home {
-  height: 80%;
-  width: 100%;
-  display: block;
-  text-align: center;
-  align-items: center;
-  padding-bottom: 1px;
-  position: static;
+  background-color: red;
+  height: 100vh;
+  margin-bottom: 10%;
 }
 
 .icon {
   position: relative;
-  left: 70px;
-  top: 100px;
+  margin-top: 30%;
+  width: 50%;
 }
 
 .subheading {
-  font-family: "Poppins";
   position: relative;
-  top: 190px;
-  right: 100px;
-  text-transform: uppercase;
-  margin: 0 auto;
-}
-
-.subheading::before {
-  position: absolute;
-  top: 50%;
-  right: 110%;
-  content: "";
-  width: 130px;
-  height: 2px;
-  background-color: black;
-}
-
-.subheading::after {
-  position: absolute;
-  top: 50%;
-  left: 110%;
-  content: "";
-  width: 130px;
-  height: 2px;
-  background-color: black;
+  margin-top: 10%;
 }
 
 .names {
-  text-align: center;
+  margin: 50px auto;
   position: relative;
-  font-size: 6rem;
-  top: 110px;
+  margin-top: 10%;
 }
 
 .wedding-date {
+  margin-bottom: 100px;
   position: relative;
-  top: 120px;
+  margin-top: 10%;
 }
 
-.wedding-date::before {
-  position: absolute;
-  top: 50%;
-  right: 110%;
-  content: "";
-  width: 150px;
-  height: 2px;
-  background-color: black;
-}
-
-.wedding-date::after {
-  position: absolute;
-  top: 50%;
-  left: 110%;
-  content: "";
-  width: 150px;
-  height: 2px;
-  background-color: black;
-}
-
-.timer-container {
-  font-family: "Poppins";
-  font-size: 2rem;
-  padding-top: 1%;
+.timer {
+  font-size: 5rem;
   position: relative;
-  top: 150px;
-  margin: auto;
-  width: 400px;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 
-.rsvp-button {
-  font-family: "Poppins";
-  position: relative;
-  top: 200px;
-  height: 50px;
-  width: 200px;
+/* ----------Accomidation Section---------- */
+#accomidations-section {
+  height: 50vh;
 }
 
-/* RSVP Section */
+/* ----------Entertainment Section---------- */
+#entertainment-section {
+  height: 50vh;
+}
+
+.video {
+  width: 100vw;
+  height: 25vh;
+}
+
+/* ----------Photography Section---------- */
+#photographer-section {
+  height: 50vh;
+}
+
+/* ----------Food Section---------- */
+#food-section {
+  height: 50vh;
+}
+
+/* ----------RSVP Section---------- */
+#rsvp-section {
+  height: 50vh;
+}
+
+#rsvp {
+  top: 250px;
+}
+
 .form-control {
   height: 40px;
   box-shadow: none;
@@ -258,83 +248,3 @@ h3 {
 .signup-form form a:hover {
   text-decoration: underline;
 }
-
-/* Accomidations Section */
-#accomidations-section {
-  padding: 50px;
-}
-
-.accomidations-carousel {
-  margin: 50px auto;
-  width: 800px;
-}
-
-/* Entertainment Section */
-.entertainment-section-title {
-  color: black;
-}
-
-.entertainment-box {
-  text-align: center;
-  padding: 5%;
-}
-
-.leah-link:hover {
-  text-decoration: none;
-}
-
-.video {
-  margin-top: 50px;
-}
-
-/* Mobile Size */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .names {
-    font-size: 3.2rem;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 1130px) {
-  .names {
-    font-size: 3.5rem;
-  }
-
-  .nav-link {
-    font-size: 2rem;
-  }
-
-  .navbar-toggler-icon {
-    width: 3rem;
-    height: 3rem;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .names {
-    font-size: 5rem;
-  }
-
-  #mobile-nav {
-    display: none;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  ...
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  ...
-}
-
-/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
-/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
-/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
-/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
-/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
-/* FIGURE OUT WHY THE MENU IS SO SMALL ON MOBILE */
