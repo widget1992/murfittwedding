@@ -27,77 +27,70 @@
   <section id="navigation-section">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Murfitt Wedding</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">RSVP</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#accomidations-section">Accomidations</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Vendors
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#entertainment-section">Entertainment</a>
-              <a class="dropdown-item" href="#photographer-section">Photographer</a>
-              <a class="dropdown-item" href="#">Food</a>
-            </div>
-          </li>
-        </ul>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav bg-light">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">RSVP</a>
+          <a class="nav-item nav-link" href="#">Accomidations</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
       </div>
     </nav>
   </section>
 
-  <section id="home">
-    <img id="home-background" src="images/IMG-4791.JPG" alt="">
+  <section id="main-content">
+    <div id="home-background"></div>
 
-    <div class="main col-12">
-      <img class="icon" src="images/rose-outline-variant-with-vines-and-leaves.svg" alt="">
+    <div id="content-box">
+
+      <div class="main col-12">
+        <img class="icon" src="images/rose-outline-variant-with-vines-and-leaves.svg" alt="">
+      </div>
+
+      <div class="main col-12 subheading">
+        <span>
+          <h2>The Wedding of</h2>
+        </span>
+      </div>
+
+      <div class="main col-12 names">
+        <h1>George & Cindy</h1>
+      </div>
+
+      <div class="main col-12 wedding-date">
+        <span>
+          <h2>August 7, 2021</h2>
+        </span>
+      </div>
+
+      <div class="col-3 col-sm timer">
+        <h2>Days Until Wedding</h2>
+        <hr class="hr-fifty">
+        <div class="row justify-content-center" id="days"></div>
+      </div>
+
     </div>
 
-    <div class="main col-12 subheading">
-      <span>
-        <h2>The Wedding of</h2>
-      </span>
-    </div>
-
-    <div class="main col-12 names">
-      <h1>George & Cindy</h1>
-    </div>
-
-    <div class="main col-12 wedding-date">
-      <span>
-        <h2>August 7, 2021</h2>
-      </span>
-    </div>
-
-    <div class="col-3 col-sm timer">
-      <h3>Days Until Wedding</h3>
-      <hr class="hr-fifty">
-      <div class="row justify-content-center" id="days"></div>
-    </div>
-    <!-- <div class="col-3 col-sm timer">
-      <h2>Hours</h2>
-      <div class="row justify-content-center" id="hours"></div>
-    </div>
-    <div class="col-3 col-sm timer">
-      <h2>Minutes</h2>
-      <div class="row justify-content-center" id="minutes"></div>
-    </div>
-    <div class="col-3 col-sm timer">
-      <h2>Seconds</h2>
-      <div class="row justify-content-center" id="seconds"></div>
-    </div> -->
   </section>
 
 </body>
 
 </html>
+
+
+<!-- Not Used Timer Parts -->
+<!-- <div class="col-3 col-sm timer">
+  <h2>Hours</h2>
+  <div class="row justify-content-center" id="hours"></div>
+</div>
+<div class="col-3 col-sm timer">
+  <h2>Minutes</h2>
+  <div class="row justify-content-center" id="minutes"></div>
+</div>
+<div class="col-3 col-sm timer">
+  <h2>Seconds</h2>
+  <div class="row justify-content-center" id="seconds"></div>
+</div> -->
