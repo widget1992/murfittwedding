@@ -92,6 +92,12 @@ body {
   margin-top: 40vh;
 }
 
+.quote img {
+  position: relative;
+  width: 65vw;
+  top: -13vh;
+}
+
 #main-content h3 {
   font-size: 3rem;
   font-family: 'Amatic SC', cursive;
@@ -101,7 +107,7 @@ body {
 .wedding-date {}
 
 .timer {
-  margin-top: 5vh;
+  margin-top: -20vh;
 }
 
 .hr-fifty {
