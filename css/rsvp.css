@@ -36,6 +36,10 @@ padding: 0;
 background-color: rgb(219, 219, 219);
 }
 
+body {
+  background-image: url(https://i.pinimg.com/originals/80/eb/79/80eb797560f2f4d392fdec13a5c59820.png);
+}
+
 .form {
   width: 80vw;
   background-color: #fff;
@@ -70,6 +74,13 @@ h1, h2, p {
 
 h2 {
   font-weight: 100;
+}
+
+form h1,
+form h2,
+form p,
+form input {
+  font-family: 'Playfair Display', serif;
 }
 
 p.line {
